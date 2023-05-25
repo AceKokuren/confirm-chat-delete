@@ -1,0 +1,42 @@
+{
+  "id": "confirm-chat-delete",
+  "title": "Chat Delete Confirmation",
+  "description": "A module adding a simple confirmation to chat messages about whether you wish to delete it.",
+  "authors": [
+    {
+      "name": "AceKokuren",
+      "url": "https://github.com/AceKokuren"
+    }
+  ],
+  "url": "https://github.com/AceKokuren/confirm-chat-delete",
+  "manifest": "",
+  "download": "",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11.299"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "english",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "German",
+      "path": "lang/de.json"
+    }
+  ],
+  "esmodules": [
+    "esmodules/overrideChatMessageDelete.js"
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "json",
+        "js"
+      ]
+    }
+  }
+}
